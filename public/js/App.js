@@ -138,7 +138,6 @@ class App {
     const page = this.getPage(pageName);
     page.render(options);
   }
-
   /**
    * Устанавливает состояние приложения
    * Для свойства App.element устанавливает класс

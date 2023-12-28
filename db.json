@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "name": "demo",
+      "email": "demo@demo",
+      "password": "demo",
+      "id": "1"
+    },
+    {
+      "name": "test",
+      "email": "test@test",
+      "password": "1234",
+      "id": "18etib4i8lql8cj3m"
+    },
+    {
+      "name": "test",
+      "email": "test@test.ru",
+      "password": "1234",
+      "id": "18etibd7olqlzlasf"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Магазин",
+      "user_id": "1",
+      "id": "2"
+    },
+    {
+      "name": "Покупки",
+      "user_id": "18etibd7olqlzlasf",
+      "id": "18etibeyolqlzs1ze"
+    },
+    {
+      "name": "Bank",
+      "user_id": "18etibd7olqlzlasf",
+      "id": "18etibbnolqnchyar"
+    },
+    {
+      "name": "Shop",
+      "user_id": "18etibd7olqlzlasf",
+      "id": "18etibha4lqnciavd"
+    },
+    {
+      "name": "Bank",
+      "user_id": "1",
+      "id": "18etibelolqnzcoxu"
+    }
+  ],
+  "transactions": [
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "5",
+      "name": "Фрукты",
+      "sum": 250,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "id": "18etibb9klqkl8zlz",
+      "type": "income",
+      "name": "test",
+      "sum": 12345,
+      "account_id": "18etib4oklqgudars",
+      "user_id": "1",
+      "created_at": "2023-12-25T07:20:01.606Z"
+    },
+    {
+      "id": "18etibggwlqnem0m8",
+      "type": "income",
+      "name": "test",
+      "sum": 1222,
+      "account_id": "18etibeyolqlzs1ze",
+      "user_id": "18etibd7olqlzlasf",
+      "created_at": "2023-12-27T06:37:30.655Z"
+    },
+    {
+      "id": "18etib5y8lqnzku36",
+      "type": "expense",
+      "name": "Bank",
+      "sum": 123,
+      "account_id": "2",
+      "user_id": "1",
+      "created_at": "2023-12-27T16:24:27.473Z"
+    }
+  ]
+}
